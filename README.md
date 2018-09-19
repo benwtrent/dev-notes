@@ -1,7 +1,9 @@
 # dev-notes
 collection of my daily notes, TILs, dev activities
 
-I use the following function in my `.bash_profile` to make this more seamless
+I use the following function in my `.bash_profile` to make this more seamless.
+
+I stole the main idea from a [HN thread](https://news.ycombinator.com/item?id=16358837)
 
 ```
 export DEV_NOTES_PATH=/path/to/my/repo/
