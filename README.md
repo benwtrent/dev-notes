@@ -19,6 +19,7 @@ notes() {
           less +G $fpath
       elif [ "$1" == "publish" ]; then
         git --git-dir ${DEV_NOTES_PATH}.git --work-tree ${DEV_NOTES_PATH} pull
+        git --git-dir ${DEV_NOTES_PATH}.git --work-tree ${DEV_NOTES_PATH} add -A 
         git --git-dir ${DEV_NOTES_PATH}.git --work-tree ${DEV_NOTES_PATH} commit -am 'adding notes for `date +"%Y-%m-%d"`'
         git --git-dir ${DEV_NOTES_PATH}.git --work-tree ${DEV_NOTES_PATH} push
       else
