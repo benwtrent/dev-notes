@@ -4,7 +4,7 @@ Relaxed monotonicity (early stopping)
 
 https://www.usenix.org/system/files/osdi23-zhang-qianxi_1.pdf
 
-JVector has a simple implementation: TODO link
+JVector has a simple implementation: TODO link: RelaxedMonotonicityTracker
 
 
 Indexing Centroids?
